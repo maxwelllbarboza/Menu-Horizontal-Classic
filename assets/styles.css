@@ -15,7 +15,7 @@ ul li{
 ul a {
   display: block;
   padding: 0 2em;
-  line-height: 2.2em;
+  line-height: 40px;
   text-decoration: none;
   color: #fff;
   background: url(../assets/img/divisor.png) repeat-y;
@@ -23,15 +23,15 @@ ul a {
 ul .primeiro a {
   background: none;
 }
-ul a:hover, .selecionado a{
+ul a:hover{
   color: #085662;
   background: #44cade;
 }
-
+#home #navegacao .home a,
 #sobre #navegacao .sobre a,
 #servicos #navegacao .servicos a,
 #noticias #navegacao .noticias a,
-#contato #navegacao .contato a{
+#contato #navegacao .contato a {
   color: #085662;
   background: #44cade;
 }
